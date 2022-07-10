@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.menu-container {
+    background-color: #5995DA;  
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    position: fixed;
+    top:0px;
+    left: 0px;
+  }
+
+.menu {
+    background-color: #5995DA; 
+    color: #D6E9FE; 
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    }
+ 
+ a:link, a:visited {
+  color: #D6E9FE;
+  }   
+
+.contatti {
+    margin-left: auto;   
+  }
+
+.portfolio {  
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+
+  .nome {
+    margin-left: 50px;   
+  }
+  
+ .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+
+.header {
+    width: 1200px;
+    height: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top:50px;
+  }
+ 
+ @media screen and (min-width: 1000px) {
+  .header {
+    flex-direction:row;
+  }
+}
+ 
+ 
+.bio  {
+ display:flex;
+ flex-direction: column;
+ margin: 50px
+}
+
+
+.logo {
+  display:flex;
+  margin: 50px;
+  }
+
+.contenuto-container{
+  display: flex;
+  justify-content: center;
+  background-color: #f7f7f7;
+  }  
+
+.contenuto {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+}  
+
+.progetti-container,
+.skill-container,
+.contatti-container {
+    color: #f7f7f7;
+    background-color: #5995DA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    margin: 30px;
+    width:450px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    }
+
+.progetti {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+ .skill {
+  display: flex;
+  line-height: 1.5em; 
+  font-size: 1.5em;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  width: 400px; 
+}
+  
+  
+.progetto1,
+.progetto2,
+.link-progetti,
+.progetto3 {  
+    display: flex;
+    margin-bottom:50px;
+}    
+
+.link-progetti {  
+    width:250px;
+    height: 141px;
+    background-color: #f7f7f7;
+}    
+
+.paragrafo {
+    display:flex;
+    align-items: center;
+    margin: auto;
+    font-size: 1.5em;
+  }
+
+.titolo-portfolio,
+.titolo-skill,
+.titolo-contatti {
+  display:flex;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom:50px;
+  font-size: 1.5em; 
+}
+
+.email,
+.linkedin {
+  display:flex;
+  width: 350px;
+  margin: auto;
+  margin-bottom:50px;
+}
+
+.logo-contatti,
+.link-email,
+.link-linkedin {
+  display:flex;
+  margin: auto;
+}
+
+
+.logo-contatti {
+  margin-left: 0px;
+}
+
+.link-linkedin,
+.link-email {
+  width: 290px;
+}
+
+.footer {
+  display:flex;
+  background-color: #5995DA;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-size: 1.5em;
+  color: #D6E9FE;
+  margin-top: 50px;
+} 
+
+/* portfolio.html */
+
+.progetti-portfolio{
+  display: flex;
+  justify-content: center;
+  height:wrap;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  } 
+
+.box-progetto {
+  color: #f7f7f7;
+  background-color: #5995DA;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+  margin: 15px;
+  width:550px;
+  border-radius: 20px;
+  border: 1px solid #000;
+ }
+
+ .link-progetti {  
+  display: flex;
+  border: 1px solid #000;
+  margin-bottom:50px;
+}
+
+.titolo-progetto  {
+  display:flex;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 1.5em; 
+}
+
+.foto-progetto {
+  display: flex;
+  margin-bottom: 30px;
+}
+.descrizione-progetto {
+  display: flex;
+  margin: 50px;
+}
+
+.titolo-portfolio2 {
+  display:flex;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom:50px;
+  font-size: 1.5em; 
+  color: #5995DA;
+}
+
+.info-progetto{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;  
+}
